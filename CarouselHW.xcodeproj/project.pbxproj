@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4ACC85EE19CD06DD0087AB5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC85ED19CD06DD0087AB5A /* AppDelegate.swift */; };
-		4ACC85F019CD06DD0087AB5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC85EF19CD06DD0087AB5A /* ViewController.swift */; };
 		4ACC85F319CD06DD0087AB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC85F119CD06DD0087AB5A /* Main.storyboard */; };
 		4ACC85F519CD06DD0087AB5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC85F419CD06DD0087AB5A /* Images.xcassets */; };
 		4ACC85F819CD06DD0087AB5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC85F619CD06DD0087AB5A /* LaunchScreen.xib */; };
 		4ACC860419CD06DD0087AB5A /* CarouselHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC860319CD06DD0087AB5A /* CarouselHWTests.swift */; };
+		4ACC860E19CD07700087AB5A /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC860D19CD07700087AB5A /* IntroViewController.swift */; };
+		4ACC861019CD07790087AB5A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC860F19CD07790087AB5A /* SignInViewController.swift */; };
+		4ACC861219CD33370087AB5A /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC861119CD33370087AB5A /* TutorialViewController.swift */; };
+		4ACC861419CDF4830087AB5A /* PhotoScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC861319CDF4830087AB5A /* PhotoScrollViewController.swift */; };
+		4ACC861619CF7A5C0087AB5A /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC861519CF7A5C0087AB5A /* ConversationsViewController.swift */; };
+		4ACC861819CF7CB40087AB5A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC861719CF7CB40087AB5A /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		4ACC85E819CD06DD0087AB5A /* CarouselHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACC85EC19CD06DD0087AB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ACC85ED19CD06DD0087AB5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4ACC85EF19CD06DD0087AB5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ACC85F219CD06DD0087AB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ACC85F419CD06DD0087AB5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4ACC85F719CD06DD0087AB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4ACC85FD19CD06DD0087AB5A /* CarouselHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACC860219CD06DD0087AB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ACC860319CD06DD0087AB5A /* CarouselHWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselHWTests.swift; sourceTree = "<group>"; };
+		4ACC860D19CD07700087AB5A /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		4ACC860F19CD07790087AB5A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4ACC861119CD33370087AB5A /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		4ACC861319CDF4830087AB5A /* PhotoScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoScrollViewController.swift; sourceTree = "<group>"; };
+		4ACC861519CF7A5C0087AB5A /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		4ACC861719CF7CB40087AB5A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +88,13 @@
 			isa = PBXGroup;
 			children = (
 				4ACC85ED19CD06DD0087AB5A /* AppDelegate.swift */,
-				4ACC85EF19CD06DD0087AB5A /* ViewController.swift */,
 				4ACC85F119CD06DD0087AB5A /* Main.storyboard */,
+				4ACC861719CF7CB40087AB5A /* SettingsViewController.swift */,
+				4ACC861319CDF4830087AB5A /* PhotoScrollViewController.swift */,
+				4ACC861519CF7A5C0087AB5A /* ConversationsViewController.swift */,
+				4ACC861119CD33370087AB5A /* TutorialViewController.swift */,
+				4ACC860D19CD07700087AB5A /* IntroViewController.swift */,
+				4ACC860F19CD07790087AB5A /* SignInViewController.swift */,
 				4ACC85F419CD06DD0087AB5A /* Images.xcassets */,
 				4ACC85F619CD06DD0087AB5A /* LaunchScreen.xib */,
 				4ACC85EB19CD06DD0087AB5A /* Supporting Files */,
@@ -212,7 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ACC85F019CD06DD0087AB5A /* ViewController.swift in Sources */,
+				4ACC861419CDF4830087AB5A /* PhotoScrollViewController.swift in Sources */,
+				4ACC861019CD07790087AB5A /* SignInViewController.swift in Sources */,
+				4ACC861819CF7CB40087AB5A /* SettingsViewController.swift in Sources */,
+				4ACC860E19CD07700087AB5A /* IntroViewController.swift in Sources */,
+				4ACC861619CF7A5C0087AB5A /* ConversationsViewController.swift in Sources */,
+				4ACC861219CD33370087AB5A /* TutorialViewController.swift in Sources */,
 				4ACC85EE19CD06DD0087AB5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
